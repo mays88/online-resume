@@ -85,8 +85,9 @@ li {
 }
 
 .language-container {
-    /* display: flex; */
+    display: flex;
     flex-wrap: wrap;
+
     height: 210px;
     width: 20rem;
     max-width: 15rem;
