@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(54, 54, 54);
+}
+
+section {
+    padding-bottom: 10px;
+}
+
+aside {
+    width: 400px;
+    height: 45rem;
+    max-width: 500px;
+    margin: 15px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px;
+}
+
+p,
+table {
+    padding: 0 15px;
+}
+
+td {
+    padding: 15px 0;
+    display: flex;
+    gap: 5px;
+}
+
+li {
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: rgb(245, 245, 245);
+    width: 1000px;
+    margin: 50px auto;
+    padding: 50px;
+    box-shadow: 25px 15px 25px black;
+    border: 2px solid black;
+}
+
+#mid-section {
+    display: flex;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #bac9e6;
+    padding: 15px 15px 0 15px;
+}
+#header h4 {
+    padding-right: 25px;
+}
+
+/* .header-name {
+    padding-left: 25px;
+} */
+.header-name span {
+    color: #970c0c;
+}
+
+.icons-container {
+    display: flex;
+}
+
+.icons {
+    height: 30px;
+    margin-left: 5px;
+    transition-property: height;
+    transition-duration: 1s;
+}
+.icons:hover {
+    height: 40px;
+}
+.tech-icons {
+    height: 50px;
+    margin-left: 5px;
+}
+
+.language-container {
+    /* display: flex; */
+    flex-wrap: wrap;
+    height: 210px;
+    width: 20rem;
+    max-width: 15rem;
+
+    /* flex-grow: 5; */
+}
+
+.header-h1 {
+    text-align: center;
+    border-bottom: 3px solid #970c0c;
+    background-color: #bac9e6;
+    padding: 5px 0 5px 0;
+    margin-bottom: 10px;
+    /* box-shadow: 0px 1px 4px; */
+    margin-top: 0;
+}
+
+#section2 {
+    background-color: #bac9e6;
+}
+#section2 p {
+    padding: 5px 15px;
+    margin-bottom: 0;
+}
+
+#section3 .header-h1 {
+    padding-top: 0;
+}
+#section3 {
+    text-align: center;
+}
+#section4 p,
+#section5 p,
+#section6 p {
+    display: flex;
+
+    margin: 15px 0;
+}
+
+.edHead {
+    font-weight: bold;
+}
+.date {
+    margin-left: auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+    }
+}
